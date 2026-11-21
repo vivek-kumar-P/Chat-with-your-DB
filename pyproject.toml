@@ -1,0 +1,22 @@
+[project]
+name = "text-to-sql"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "chromadb>=1.5.9",
+    "fastapi>=0.143.0",
+    "langchain>=0.3.0",
+    "langchain-groq>=0.1.0",
+    "langchain-mcp-adapters>=0.1.0",
+    "langgraph>=0.2.0",
+    "langgraph-checkpoint-sqlite>=3.1.2",
+    "mcp>=1.0.0",
+    "pydantic>=2.0.0",
+    "python-dotenv>=1.0.0",
+    "sentence-transformers>=6.1.0",
+    "sqlglot>=25.0.0",
+    "streamlit>=1.65.0",
+    "uvicorn>=0.54.0",
+]
